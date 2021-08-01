@@ -1,0 +1,2 @@
+[21-May-2020 23:53:06 UTC] PHP Warning:  require_once(spyc/spyc.php): failed to open stream: No such file or directory in /home/intecoc/public_html/novo/painel/assets/login/vendor/elusive-icons/dev/build.php on line 119
+[21-May-2020 23:53:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'spyc/spyc.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/intecoc/public_html/novo/painel/assets/login/vendor/elusive-icons/dev/build.php on line 119

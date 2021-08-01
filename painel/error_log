@@ -1,0 +1,1763 @@
+[03-Apr-2019 17:30:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /home/intecoc/public_html/novo/painel/config.php:22
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/config.php(22): PDO->__construct('mysql:dbname=in...', 'intecoc_admin', 'Admin3b2a1.')
+#1 /home/intecoc/public_html/novo/painel/index.php(5): require('/home/intecoc/p...')
+#2 {main}
+  thrown in /home/intecoc/public_html/novo/painel/config.php on line 22
+[03-Apr-2019 17:30:55 UTC] PHP Warning:  Error while sending QUERY packet. PID=30209 in /home/intecoc/public_html/novo/painel/models/Senha.php on line 40
+[03-Apr-2019 17:30:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/intecoc/public_html/novo/painel/models/Senha.php:40
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/Senha.php(40): PDO->query('delete from cli...')
+#1 /home/intecoc/public_html/novo/painel/controllers/sincronizasenhasController.php(22): Senha->sincronizarSenhas()
+#2 [internal function]: sincronizasenhasController->index()
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/Senha.php on line 40
+[03-Apr-2019 17:31:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/intecoc/public_html/novo/painel/config.php:22
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/config.php(22): PDO->__construct('mysql:dbname=in...', 'intecoc_admin', 'Admin3b2a1.')
+#1 /home/intecoc/public_html/novo/painel/index.php(5): require('/home/intecoc/p...')
+#2 {main}
+  thrown in /home/intecoc/public_html/novo/painel/config.php on line 22
+[27-Jun-2019 11:59:46 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[27-Jun-2019 11:59:53 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[09-Jul-2019 01:12:50 UTC] PHP Warning:  unlink(assets/images/usuarios/304910216a0aa2cec44e3524102faddc.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Jul-2019 01:13:01 UTC] PHP Warning:  unlink(assets/images/usuarios/f04f17b72702f9cca20f8cbc1a918c1d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Jul-2019 15:25:11 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[09-Jul-2019 15:25:14 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[09-Jul-2019 15:26:50 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[09-Jul-2019 15:37:48 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[09-Jul-2019 15:37:51 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[09-Jul-2019 15:37:53 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[09-Jul-2019 19:21:52 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[09-Jul-2019 19:21:56 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[10-Jul-2019 18:44:30 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[10-Jul-2019 18:44:36 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 17:10:42 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:25:53 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:993/imap/ssl}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 30
+[16-Jul-2019 20:38:12 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:143/imap}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:38:16 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:143/imap}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:38:35 UTC] PHP Warning:  imap_open(): Couldn't open stream {localhost:143/imap}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:39:32 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:39:34 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:39:41 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:42:20 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:44:02 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:45:26 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:45:49 UTC] PHP Warning:  imap_open(): Couldn't open stream {localhost:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:47:27 UTC] PHP Warning:  imap_open(): Couldn't open stream {localhost:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 29
+[16-Jul-2019 20:50:47 UTC] PHP Warning:  imap_open(): Couldn't open stream {mail.inteco.com.br:110/pop3/novalidate-cert}INBOX in /home/intecoc/public_html/novo/painel/models/Senha.php on line 34
+[16-Jul-2019 20:50:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/intecoc/public_html/novo/painel/models/Senha.php:34) in /home/intecoc/public_html/novo/painel/controllers/sincronizasenhasController.php on line 23
+[17-Jul-2019 11:47:17 UTC] PHP Warning:  unlink(assets/images/usuarios/30143e055d23b463974eaa251d9044c5.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:48:03 UTC] PHP Warning:  unlink(assets/images/usuarios/d3f75348bc2eaeebb6758aec89a80997.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:48:29 UTC] PHP Warning:  unlink(assets/images/usuarios/aac92cd0720e5f64eca3c363d2c7603c.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:48:48 UTC] PHP Warning:  unlink(assets/images/usuarios/bb69e2e3f7f3eef02e06346ac8544c6d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:49:08 UTC] PHP Warning:  unlink(assets/images/usuarios/0a58d0ed1c6bb6130bb68ac3e97f0a9a.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:49:21 UTC] PHP Warning:  unlink(assets/images/usuarios/82b704cf53169d5fa2899cde74386c71.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:49:45 UTC] PHP Warning:  unlink(assets/images/usuarios/95f495bf2ef024e6eae861ec5f7a8671.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:49:59 UTC] PHP Warning:  unlink(assets/images/usuarios/304910216a0aa2cec44e3524102faddc.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:50:09 UTC] PHP Warning:  unlink(assets/images/usuarios/efbc85859ce3f863fe8662ccf19f1c6d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:55:44 UTC] PHP Warning:  unlink(assets/images/usuarios/0f87e69da11027de6872504887980262.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:56:15 UTC] PHP Warning:  unlink(assets/images/usuarios/8afbba983ea0832bc7f36c9ca11246a3.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:56:54 UTC] PHP Warning:  unlink(assets/images/usuarios/1d2948099f5613c3cdcb9f78bba76ec5.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:57:14 UTC] PHP Warning:  unlink(assets/images/usuarios/e41e42e8e7c01acf530d0681d6917aab.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:57:33 UTC] PHP Warning:  unlink(assets/images/usuarios/1b2f2ed072cabceb163a6a69324557ed.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:57:45 UTC] PHP Warning:  unlink(assets/images/usuarios/dea3c7c9467f0ec657c31d5f0a9fd57f.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:58:00 UTC] PHP Warning:  unlink(assets/images/usuarios/7ecfa016522808f9111dc4f6fd7b160d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:58:10 UTC] PHP Warning:  unlink(assets/images/usuarios/463fb081dc302b77cccf91ce490ce593.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:58:39 UTC] PHP Warning:  unlink(assets/images/usuarios/c94f1811db29b9afef4e837d4978f4f2.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:59:15 UTC] PHP Warning:  unlink(assets/images/usuarios/14ed6440a86c0f820a8d6ae43ac14804.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:59:31 UTC] PHP Warning:  unlink(assets/images/usuarios/dfabe6625546dc016f622bd2f8e54b84.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:59:41 UTC] PHP Warning:  unlink(assets/images/usuarios/00d176106902caa382b6782c8bbb8bff.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 11:59:53 UTC] PHP Warning:  unlink(assets/images/usuarios/8440ba2c34d7f996b6b7a98b40f03079.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 12:00:12 UTC] PHP Warning:  unlink(assets/images/usuarios/9c9442ea2275e24b9ce01096a124f325.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 12:00:32 UTC] PHP Warning:  unlink(assets/images/usuarios/3fb2974d41a33e9aa87ccffa45617169.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 12:00:39 UTC] PHP Warning:  unlink(assets/images/usuarios/0392f1d44d24d392c4930ae827758baf.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[17-Jul-2019 12:00:53 UTC] PHP Warning:  unlink(assets/images/usuarios/f04f17b72702f9cca20f8cbc1a918c1d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[06-Sep-2019 19:44:57 UTC] PHP Warning:  unlink(assets/images/usuarios/0298f8dfcf32506c840f3d63968d7377.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[06-Sep-2019 19:45:32 UTC] PHP Warning:  unlink(assets/images/usuarios/8da7926997e79a8b91d1ed4336cb1d7c.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Sep-2019 18:50:29 UTC] PHP Warning:  unlink(assets/images/usuarios/10ea81eff94b77f451b29809028e186e.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Sep-2019 18:50:44 UTC] PHP Warning:  unlink(assets/images/usuarios/05ff474290410f7a2962da07871034fe.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Sep-2019 18:51:04 UTC] PHP Warning:  unlink(assets/images/usuarios/e07aa1da8f2787b3ce0da969f1cd2675.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Sep-2019 18:51:23 UTC] PHP Warning:  unlink(assets/images/usuarios/135eeef3a26d81a9f07bbbc5ea4b6e37.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Sep-2019 18:51:41 UTC] PHP Warning:  unlink(assets/images/usuarios/1c2d091900b63609be180e68f948b18d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Sep-2019 18:51:58 UTC] PHP Warning:  unlink(assets/images/usuarios/0ad02927d75562adb60085c92a9e9fc4.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Sep-2019 18:52:09 UTC] PHP Warning:  unlink(assets/images/usuarios/768f93342765444032f5ebca3d3d95ec.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Sep-2019 18:52:20 UTC] PHP Warning:  unlink(assets/images/usuarios/253ed6fb85722e3e75ac980435368078.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[21-Oct-2019 14:05:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/intecoc/public_html/novo/painel/models/Senha.php:70) in /home/intecoc/public_html/novo/painel/controllers/sincronizasenhasController.php on line 23
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 43
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 44
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 45
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 46
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 47
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 555
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 601
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 647
+[03-Nov-2019 19:29:08 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/intecoc/public_html/novo/painel/views/prestacao_edit.php on line 693
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor_adiantamento' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 481
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'data' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 482
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'descricao' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 483
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 484
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'empresa' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 485
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  Illegal string offset 'valor' in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 486
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 978
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 1021
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 1065
+[03-Nov-2019 19:31:51 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/intecoc/public_html/novo/painel/views/relprestacao_pdf.php on line 1108
+[09-Nov-2019 07:00:49 UTC] PHP Warning:  unlink(assets/images/usuarios/323cf957e0998226738489e8f88fb437.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:00:54 UTC] PHP Warning:  unlink(assets/images/usuarios/519f44ed9988d4f7a64d0732e2e8a131.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:00:58 UTC] PHP Warning:  unlink(assets/images/usuarios/30dba9573cfc38ff2dbf5831187eb4d4.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:01:08 UTC] PHP Warning:  unlink(assets/images/usuarios/d87e52a3f949f160f3586381d0a085be.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:01:40 UTC] PHP Warning:  unlink(assets/images/usuarios/63f309ee41c4c2b3b1f1a6dced81b6fb.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:01:44 UTC] PHP Warning:  unlink(assets/images/usuarios/e5d6a2c48d033c90b633e84c3870cec2.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:01:48 UTC] PHP Warning:  unlink(assets/images/usuarios/016b490ad86ae7d181cc087059ecc929.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:02:02 UTC] PHP Warning:  unlink(assets/images/usuarios/2b881654f6cdeb4631e43a11e9284e86.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:02:30 UTC] PHP Warning:  unlink(assets/images/usuarios/ea8bda501e2e99dae00b88fe12f49050.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:02:39 UTC] PHP Warning:  unlink(assets/images/usuarios/0298f8dfcf32506c840f3d63968d7377.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:02:43 UTC] PHP Warning:  unlink(assets/images/usuarios/1d70900bbc44d7a2fa9fe7282684b1ad.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:02:47 UTC] PHP Warning:  unlink(assets/images/usuarios/8c72a6b60c8813e1326c996868df4e9f.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:03:01 UTC] PHP Warning:  unlink(assets/images/usuarios/7dd40e35ece94554db0e5f9f1586f4a4.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:03:06 UTC] PHP Warning:  unlink(assets/images/usuarios/4255bfc832b3c7bad49268514a1fba50.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:03:10 UTC] PHP Warning:  unlink(assets/images/usuarios/8b2ebeb085d0bd9c9fdddf43d8673597.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:03:16 UTC] PHP Warning:  unlink(assets/images/usuarios/2a6ed9eb4113a457851620f99d272f13.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:03:20 UTC] PHP Warning:  unlink(assets/images/usuarios/8da7926997e79a8b91d1ed4336cb1d7c.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:03:26 UTC] PHP Warning:  unlink(assets/images/usuarios/04ed7b6ffbe50b43dbd801d3bd0a919e.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:03:29 UTC] PHP Warning:  unlink(assets/images/usuarios/fce69ff933bb46361f185030e919fd34.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:03:41 UTC] PHP Warning:  unlink(assets/images/usuarios/80a06f92e6fa9bd8b8d3d7693afb403a.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[09-Nov-2019 07:04:23 UTC] PHP Warning:  unlink(assets/images/usuarios/b2f3bf1f11f4d34b38323c4590b7d386.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 11:51:51 UTC] PHP Warning:  unlink(assets/images/usuarios/3ac92952dacf198364e2b408836b5f66.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 11:54:28 UTC] PHP Warning:  unlink(assets/images/usuarios/b1a6a1ec51e6e33a23bff2000ac15a96.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 11:55:20 UTC] PHP Warning:  unlink(assets/images/usuarios/c9c42cedda0933272383f323855bd668.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 11:56:01 UTC] PHP Warning:  unlink(assets/images/usuarios/2eb90ee2129f657d3702e8158fb335b5.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 11:56:41 UTC] PHP Warning:  unlink(assets/images/usuarios/df8fcdc1babec4499d44d4607a8b7e8a.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 11:57:30 UTC] PHP Warning:  unlink(assets/images/usuarios/6640fcedfb46c041bdb3119f40f2972c.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:00:49 UTC] PHP Warning:  unlink(assets/images/usuarios/323cf957e0998226738489e8f88fb437.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:01:02 UTC] PHP Warning:  unlink(assets/images/usuarios/519f44ed9988d4f7a64d0732e2e8a131.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:01:14 UTC] PHP Warning:  unlink(assets/images/usuarios/30dba9573cfc38ff2dbf5831187eb4d4.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:01:25 UTC] PHP Warning:  unlink(assets/images/usuarios/d87e52a3f949f160f3586381d0a085be.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:01:46 UTC] PHP Warning:  unlink(assets/images/usuarios/63f309ee41c4c2b3b1f1a6dced81b6fb.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:02:31 UTC] PHP Warning:  unlink(assets/images/usuarios/016b490ad86ae7d181cc087059ecc929.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:02:45 UTC] PHP Warning:  unlink(assets/images/usuarios/2b881654f6cdeb4631e43a11e9284e86.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:03:01 UTC] PHP Warning:  unlink(assets/images/usuarios/ea8bda501e2e99dae00b88fe12f49050.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:03:16 UTC] PHP Warning:  unlink(assets/images/usuarios/1d70900bbc44d7a2fa9fe7282684b1ad.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:03:38 UTC] PHP Warning:  unlink(assets/images/usuarios/8c72a6b60c8813e1326c996868df4e9f.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:03:50 UTC] PHP Warning:  unlink(assets/images/usuarios/7dd40e35ece94554db0e5f9f1586f4a4.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:04:09 UTC] PHP Warning:  unlink(assets/images/usuarios/4255bfc832b3c7bad49268514a1fba50.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:04:29 UTC] PHP Warning:  unlink(assets/images/usuarios/2a6ed9eb4113a457851620f99d272f13.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:04:47 UTC] PHP Warning:  unlink(assets/images/usuarios/04ed7b6ffbe50b43dbd801d3bd0a919e.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:05:11 UTC] PHP Warning:  unlink(assets/images/usuarios/fce69ff933bb46361f185030e919fd34.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:05:35 UTC] PHP Warning:  unlink(assets/images/usuarios/80a06f92e6fa9bd8b8d3d7693afb403a.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[11-Nov-2019 12:05:46 UTC] PHP Warning:  unlink(assets/images/usuarios/b2f3bf1f11f4d34b38323c4590b7d386.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 123
+[20-Nov-2019 17:42:37 UTC] PHP Warning:  unlink(assets/images/usuarios/e5d6a2c48d033c90b633e84c3870cec2.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[25-Nov-2019 18:26:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[25-Nov-2019 19:46:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[26-Nov-2019 12:42:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('21')
+#2 [internal function]: arearemotaController->edit('21')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[27-Nov-2019 19:14:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[06-Dec-2019 12:14:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[09-Dec-2019 18:06:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[10-Dec-2019 18:07:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[09-Jan-2020 14:36:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 02:59:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 02:59:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 02:59:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 02:59:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('21')
+#2 [internal function]: arearemotaController->edit('21')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 02:59:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('20')
+#2 [internal function]: arearemotaController->edit('20')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 02:59:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('5')
+#2 [internal function]: arearemotaController->edit('5')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 02:59:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 02:59:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('28')
+#2 [internal function]: arearemotaController->edit('28')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:00:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('27')
+#2 [internal function]: arearemotaController->edit('27')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:00:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('24')
+#2 [internal function]: arearemotaController->edit('24')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:00:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('25')
+#2 [internal function]: arearemotaController->edit('25')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:00:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:00:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('8')
+#2 [internal function]: arearemotaController->edit('8')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:00:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('13')
+#2 [internal function]: arearemotaController->edit('13')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:00:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('6')
+#2 [internal function]: arearemotaController->edit('6')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:00:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('29')
+#2 [internal function]: arearemotaController->edit('29')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Jan-2020 03:03:50 UTC] PHP Warning:  unlink(assets/images/usuarios/fe8d82613fd001e6bf75480ce3211d83.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 03:03:59 UTC] PHP Warning:  unlink(assets/images/usuarios/0298f8dfcf32506c840f3d63968d7377.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 03:04:26 UTC] PHP Warning:  unlink(assets/images/usuarios/8b2ebeb085d0bd9c9fdddf43d8673597.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 03:04:32 UTC] PHP Warning:  unlink(assets/images/usuarios/8da7926997e79a8b91d1ed4336cb1d7c.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 03:05:05 UTC] PHP Warning:  unlink(assets/images/usuarios/075d479e85c7e8b07ad1b1fdc80ea70c.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:15:42 UTC] PHP Warning:  unlink(assets/images/usuarios/d874a6b7455c4ee13b6ec659c56fc26e.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:16:23 UTC] PHP Warning:  unlink(assets/images/usuarios/f641584a66074004aba265d35c1cd0e4.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:16:41 UTC] PHP Warning:  unlink(assets/images/usuarios/aa80a3f8089be87700da3e82a9456272.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:16:58 UTC] PHP Warning:  unlink(assets/images/usuarios/fe8d82613fd001e6bf75480ce3211d83.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:17:07 UTC] PHP Warning:  unlink(assets/images/usuarios/68d784a32870073fe17dd22e9430366d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:17:15 UTC] PHP Warning:  unlink(assets/images/usuarios/22c0f87fd087c55cdbc62d9f13627403.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:17:44 UTC] PHP Warning:  unlink(assets/images/usuarios/075d479e85c7e8b07ad1b1fdc80ea70c.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:17:53 UTC] PHP Warning:  unlink(assets/images/usuarios/09f1de3362b09d584a50300c2caed18d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:19:01 UTC] PHP Warning:  unlink(assets/images/usuarios/d1b24c9ca77dc5c609cc635b97b7a4e4.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:19:12 UTC] PHP Warning:  unlink(assets/images/usuarios/1862951f53645feed5dacd3ee5b4795b.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:19:19 UTC] PHP Warning:  unlink(assets/images/usuarios/beeed8fb2e69e4f2d8d3c72cf8a77f40.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:19:33 UTC] PHP Warning:  unlink(assets/images/usuarios/f5211abb13409ccdaf022df2ddb48afa.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:20:22 UTC] PHP Warning:  unlink(assets/images/usuarios/9350caf75ed96745a4f7f81f3ea259d5.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:20:50 UTC] PHP Warning:  unlink(assets/images/usuarios/be5f37f26d2dddf687d680e3a59bb982.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:21:03 UTC] PHP Warning:  unlink(assets/images/usuarios/5816b2d085a5199f670255f42cbe3a7f.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:21:12 UTC] PHP Warning:  unlink(assets/images/usuarios/8c141ccd93f9badcecb8b7ab7bc49cc7.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:21:25 UTC] PHP Warning:  unlink(assets/images/usuarios/446d78e21d1348274409bd17849caede.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:21:48 UTC] PHP Warning:  unlink(assets/images/usuarios/8a3c0c97186e33ae2f5bb7f5af080905.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:21:55 UTC] PHP Warning:  unlink(assets/images/usuarios/98ad6edff3c6001c5a214a15c50faaaa.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:22:03 UTC] PHP Warning:  unlink(assets/images/usuarios/f3657b00e3318db2e6a237b61ae3e3e8.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:22:21 UTC] PHP Warning:  unlink(assets/images/usuarios/316d78afc77bb95bc1eb0bcf90b1a88b.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:22:29 UTC] PHP Warning:  unlink(assets/images/usuarios/8d28d880929b6af8ec172ec120972e2d.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:22:37 UTC] PHP Warning:  unlink(assets/images/usuarios/6449e5594bfef29509a6f7d90f77cd3c.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:22:49 UTC] PHP Warning:  unlink(assets/images/usuarios/9fb8f576d01591fbd75cf10486f63518.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[14-Jan-2020 12:22:57 UTC] PHP Warning:  unlink(assets/images/usuarios/97e001e336b3bf4dbb2234113f9f35d0.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[15-Jan-2020 19:54:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[20-Jan-2020 17:41:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[23-Jan-2020 14:16:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[23-Jan-2020 19:10:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[07-Feb-2020 12:56:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('21')
+#2 [internal function]: arearemotaController->edit('21')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Feb-2020 18:17:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('28')
+#2 [internal function]: arearemotaController->edit('28')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Feb-2020 19:30:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[05-Mar-2020 02:13:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('20')
+#2 [internal function]: arearemotaController->edit('20')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[05-Mar-2020 02:13:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[05-Mar-2020 02:13:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('25')
+#2 [internal function]: arearemotaController->edit('25')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[05-Mar-2020 02:14:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('6')
+#2 [internal function]: arearemotaController->edit('6')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[13-Mar-2020 15:24:33 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:24:36 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:24:37 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:24:53 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:24:58 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:26:01 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:26:05 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:26:08 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:26:25 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:26:50 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:26:52 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:30:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 15:30:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 15:30:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 15:30:46 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[13-Mar-2020 15:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 15:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 15:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 15:31:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 15:31:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 15:31:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 15:32:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 15:32:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 15:32:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 15:32:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 15:32:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 15:32:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 16:20:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 16:20:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 16:20:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 16:20:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 16:20:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 16:20:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 16:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 16:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 16:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 16:20:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 16:20:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 16:20:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 16:20:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 16:20:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 16:20:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 16:20:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 16:20:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 16:20:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 16:23:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 71
+[13-Mar-2020 16:23:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 116
+[13-Mar-2020 16:23:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/intecoc/public_html/novo/painel/views/viagem.php on line 119
+[13-Mar-2020 16:24:16 UTC] PHP Fatal error:  Call to undefined method Funcionario::getFuncionariosTodos2() in /home/intecoc/public_html/novo/painel/controllers/viagemController.php on line 22
+[23-Mar-2020 17:20:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('28')
+#2 [internal function]: arearemotaController->edit('28')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:12:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:12:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:12:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:12:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('21')
+#2 [internal function]: arearemotaController->edit('21')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:12:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('20')
+#2 [internal function]: arearemotaController->edit('20')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:12:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('5')
+#2 [internal function]: arearemotaController->edit('5')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:12:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('28')
+#2 [internal function]: arearemotaController->edit('28')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('27')
+#2 [internal function]: arearemotaController->edit('27')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('24')
+#2 [internal function]: arearemotaController->edit('24')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('25')
+#2 [internal function]: arearemotaController->edit('25')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('8')
+#2 [internal function]: arearemotaController->edit('8')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('13')
+#2 [internal function]: arearemotaController->edit('13')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('6')
+#2 [internal function]: arearemotaController->edit('6')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:13:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('29')
+#2 [internal function]: arearemotaController->edit('29')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[24-Mar-2020 04:15:11 UTC] PHP Warning:  unlink(assets/images/usuarios/e5d6a2c48d033c90b633e84c3870cec2.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[24-Mar-2020 04:15:54 UTC] PHP Warning:  unlink(assets/images/usuarios/0298f8dfcf32506c840f3d63968d7377.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[24-Mar-2020 04:16:20 UTC] PHP Warning:  unlink(assets/images/usuarios/8b2ebeb085d0bd9c9fdddf43d8673597.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[24-Mar-2020 04:16:30 UTC] PHP Warning:  unlink(assets/images/usuarios/8da7926997e79a8b91d1ed4336cb1d7c.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[02-Apr-2020 14:11:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[06-Apr-2020 17:18:30 UTC] PHP Warning:  unlink(assets/images/usuarios/13f1a4028628e5c08dffa7968edbc678.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:18:43 UTC] PHP Warning:  unlink(assets/images/usuarios/b2cdd7c23f31c531aa4e1065c864383b.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:18:50 UTC] PHP Warning:  unlink(assets/images/usuarios/e65a1ed16b271b2cfcfdc2a9efaca001.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:18:58 UTC] PHP Warning:  unlink(assets/images/usuarios/46443b1cbe90d35eda934a0d7fbbd43a.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:19:24 UTC] PHP Warning:  unlink(assets/images/usuarios/6c6bcbd99bb92101827b4f93d5e72482.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:19:40 UTC] PHP Warning:  unlink(assets/images/usuarios/f453e124f3dbaaf11b9c8547761f4bde.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:19:54 UTC] PHP Warning:  unlink(assets/images/usuarios/701c14d507f5cbbd5dde2895fec6fd7b.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:20:27 UTC] PHP Warning:  unlink(assets/images/usuarios/7e211be41626e719fb59e6e895842253.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:20:46 UTC] PHP Warning:  unlink(assets/images/usuarios/3746e066076b09731140fbb691e919c8.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:21:00 UTC] PHP Warning:  unlink(assets/images/usuarios/d7bbda81aca67b0766d634b3f51c50ba.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:21:14 UTC] PHP Warning:  unlink(assets/images/usuarios/ee4908a6df5e476541b98c9627a916b8.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:21:32 UTC] PHP Warning:  unlink(assets/images/usuarios/9ac534186c800b184af091a5bda48426.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:22:43 UTC] PHP Warning:  unlink(assets/images/usuarios/349d63c6d7183b078fbbc33c19d6ed8d.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:22:55 UTC] PHP Warning:  unlink(assets/images/usuarios/b0ba5c21b23b6c1b2ac499c912e434d5.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:23:06 UTC] PHP Warning:  unlink(assets/images/usuarios/e2f1339329f13843e9f6c05d22024690.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:23:13 UTC] PHP Warning:  unlink(assets/images/usuarios/918deb8ee805da8c4058bf88d4366bc6.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:23:38 UTC] PHP Warning:  unlink(assets/images/usuarios/9f1faf7b137ca0b45d401a0d50bdd97f.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:24:02 UTC] PHP Warning:  unlink(assets/images/usuarios/90b5431eb96efb39d36188f83b3ed4f0.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:24:10 UTC] PHP Warning:  unlink(assets/images/usuarios/1fa4490e258b2073b079b7a0c0ebe537.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:24:20 UTC] PHP Warning:  unlink(assets/images/usuarios/bdd3886d818eaaeb6ff51b365b224f10.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:24:28 UTC] PHP Warning:  unlink(assets/images/usuarios/23c1ad961cf677841cd42ca7dde4d930.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:24:38 UTC] PHP Warning:  unlink(assets/images/usuarios/d1a243376603a86aae3831230be9e0ec.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:24:48 UTC] PHP Warning:  unlink(assets/images/usuarios/25e136d98060acbbec883719b899ab42.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:25:02 UTC] PHP Warning:  unlink(assets/images/usuarios/fb0bc7878b5437544138bf4692bb8460.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:25:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[06-Apr-2020 17:25:20 UTC] PHP Warning:  unlink(assets/images/usuarios/61e48b2c0435d58dd7c6d104381fc307.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[06-Apr-2020 17:25:31 UTC] PHP Warning:  unlink(assets/images/usuarios/06d0aa0749bb8477a63d9405e998155f.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[07-Apr-2020 13:23:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[07-Apr-2020 18:08:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[08-Apr-2020 12:27:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Apr-2020 13:10:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[17-Apr-2020 14:24:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[22-Apr-2020 12:14:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('28')
+#2 [internal function]: arearemotaController->edit('28')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[27-Apr-2020 14:45:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[29-Apr-2020 12:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[30-Apr-2020 17:16:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[08-May-2020 14:34:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[11-May-2020 18:14:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[13-May-2020 15:14:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-May-2020 13:50:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-May-2020 15:18:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[19-May-2020 12:50:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 13:14:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:27:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:28:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:29:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:29:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('5')
+#2 [internal function]: arearemotaController->edit('5')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:29:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:30:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('28')
+#2 [internal function]: arearemotaController->edit('28')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:31:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:32:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('27')
+#2 [internal function]: arearemotaController->edit('27')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:33:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('24')
+#2 [internal function]: arearemotaController->edit('24')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:34:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('25')
+#2 [internal function]: arearemotaController->edit('25')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:36:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('8')
+#2 [internal function]: arearemotaController->edit('8')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:37:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('13')
+#2 [internal function]: arearemotaController->edit('13')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:37:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('6')
+#2 [internal function]: arearemotaController->edit('6')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:39:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('29')
+#2 [internal function]: arearemotaController->edit('29')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[21-May-2020 19:53:25 UTC] PHP Warning:  unlink(assets/images/usuarios/e5d6a2c48d033c90b633e84c3870cec2.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[21-May-2020 19:57:51 UTC] PHP Warning:  unlink(assets/images/usuarios/0298f8dfcf32506c840f3d63968d7377.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[21-May-2020 20:00:52 UTC] PHP Warning:  unlink(assets/images/usuarios/8b2ebeb085d0bd9c9fdddf43d8673597.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[21-May-2020 20:00:52 UTC] PHP Warning:  unlink(assets/images/usuarios/8da7926997e79a8b91d1ed4336cb1d7c.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[31-May-2020 03:11:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('21')
+#2 [internal function]: arearemotaController->edit('21')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('20')
+#2 [internal function]: arearemotaController->edit('20')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('5')
+#2 [internal function]: arearemotaController->edit('5')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('28')
+#2 [internal function]: arearemotaController->edit('28')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:11:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('27')
+#2 [internal function]: arearemotaController->edit('27')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:12:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('25')
+#2 [internal function]: arearemotaController->edit('25')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:12:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('24')
+#2 [internal function]: arearemotaController->edit('24')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:12:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:12:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('8')
+#2 [internal function]: arearemotaController->edit('8')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:12:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('13')
+#2 [internal function]: arearemotaController->edit('13')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:12:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('6')
+#2 [internal function]: arearemotaController->edit('6')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:12:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:12:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('29')
+#2 [internal function]: arearemotaController->edit('29')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-May-2020 03:14:04 UTC] PHP Warning:  unlink(assets/images/usuarios/e5d6a2c48d033c90b633e84c3870cec2.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[31-May-2020 03:14:31 UTC] PHP Warning:  unlink(assets/images/usuarios/0298f8dfcf32506c840f3d63968d7377.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[31-May-2020 03:15:03 UTC] PHP Warning:  unlink(assets/images/usuarios/8b2ebeb085d0bd9c9fdddf43d8673597.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[31-May-2020 03:15:15 UTC] PHP Warning:  unlink(assets/images/usuarios/8da7926997e79a8b91d1ed4336cb1d7c.png): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 143
+[02-Jun-2020 14:05:41 UTC] PHP Warning:  unlink(assets/images/usuarios/bec18ed7e212602e316da9fad1856cd5.jpg): No such file or directory in /home/intecoc/public_html/novo/painel/models/Usuario.php on line 144
+[02-Jun-2020 19:12:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[04-Jun-2020 13:55:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[09-Jun-2020 13:08:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[16-Jun-2020 14:04:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[18-Jun-2020 20:26:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[10-Jul-2020 14:46:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[10-Jul-2020 17:48:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('7')
+#2 [internal function]: arearemotaController->edit('7')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[15-Jul-2020 04:22:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[15-Jul-2020 04:22:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[15-Jul-2020 04:22:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[15-Jul-2020 04:22:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[15-Jul-2020 04:33:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('21')
+#2 [internal function]: arearemotaController->edit('21')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[15-Jul-2020 04:33:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('29')
+#2 [internal function]: arearemotaController->edit('29')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[15-Jul-2020 04:33:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[15-Jul-2020 04:34:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_funcionario' cannot be null' in /home/intecoc/public_html/novo/painel/models/Anotacao.php:22
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/Anotacao.php(22): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/minhasnoteController.php(36): Anotacao->inserir(NULL, 'oiee')
+#2 [internal function]: minhasnoteController->index()
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/Anotacao.php on line 22
+[22-Jul-2020 18:11:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[23-Jul-2020 13:40:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[23-Jul-2020 18:10:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[27-Jul-2020 13:36:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[30-Jul-2020 17:28:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('28')
+#2 [internal function]: arearemotaController->edit('28')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[30-Jul-2020 20:31:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('20')
+#2 [internal function]: arearemotaController->edit('20')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[31-Jul-2020 14:04:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[10-Aug-2020 14:59:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[11-Aug-2020 12:52:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('31')
+#2 [internal function]: arearemotaController->edit('31')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 18:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('17')
+#2 [internal function]: arearemotaController->edit('17')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('15')
+#2 [internal function]: arearemotaController->edit('15')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('21')
+#2 [internal function]: arearemotaController->edit('21')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('20')
+#2 [internal function]: arearemotaController->edit('20')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('5')
+#2 [internal function]: arearemotaController->edit('5')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('18')
+#2 [internal function]: arearemotaController->edit('18')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('19')
+#2 [internal function]: arearemotaController->edit('19')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('26')
+#2 [internal function]: arearemotaController->edit('26')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('27')
+#2 [internal function]: arearemotaController->edit('27')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('25')
+#2 [internal function]: arearemotaController->edit('25')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('24')
+#2 [internal function]: arearemotaController->edit('24')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('31')
+#2 [internal function]: arearemotaController->edit('31')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('30')
+#2 [internal function]: arearemotaController->edit('30')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('8')
+#2 [internal function]: arearemotaController->edit('8')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('13')
+#2 [internal function]: arearemotaController->edit('13')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('6')
+#2 [internal function]: arearemotaController->edit('6')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('16')
+#2 [internal function]: arearemotaController->edit('16')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[12-Aug-2020 21:27:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('29')
+#2 [internal function]: arearemotaController->edit('29')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
+[14-Aug-2020 13:06:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usr' cannot be null' in /home/intecoc/public_html/novo/painel/models/AreaRemota.php:42
+Stack trace:
+#0 /home/intecoc/public_html/novo/painel/models/AreaRemota.php(42): PDOStatement->execute()
+#1 /home/intecoc/public_html/novo/painel/controllers/arearemotaController.php(35): AreaRemota->insereTs('4')
+#2 [internal function]: arearemotaController->edit('4')
+#3 /home/intecoc/public_html/novo/painel/core/Core.php(42): call_user_func_array(Array, Array)
+#4 /home/intecoc/public_html/novo/painel/index.php(18): Core->run()
+#5 {main}
+  thrown in /home/intecoc/public_html/novo/painel/models/AreaRemota.php on line 42
